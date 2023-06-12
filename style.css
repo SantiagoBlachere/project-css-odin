@@ -168,4 +168,20 @@ p{
 
 .signup{
     border-color: white;
+    border-style:solid;
+    padding: 0 30px;
+}
+
+.footer{
+    background-color: #1F2937;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.footer
+p{
+    color: white;
 }
