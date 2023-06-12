@@ -112,3 +112,60 @@ p{
     border: #3882F6 6px solid;
     border-radius: 10px;
 }
+.quote-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 200px;
+    background-color: #E5E7EB
+    
+}
+.quote{
+    font-size: 36px;
+    font-weight: light;
+    font-style: italic;
+    color: #1F2937;
+}
+.author{
+    
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    align-self: flex-end;
+    margin-right: 50px;
+    margin-top: -25px;
+}
+
+.call-container{
+    display: flex;
+    margin: 100px;
+    background-color: #3882F6;
+    justify-content: space-around;
+    color: white;
+    padding: 25px;
+}
+.call-to-action{
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    margin-left: -150px;
+    align-content: center;
+    justify-content: center;
+    
+    
+}
+.call-to-action
+h3{
+    margin: 0;
+    font-size: 20px;
+    font-weight: bold;
+}
+.call-to-action
+p{
+    margin: 0;
+    font-size: 15px;
+}
+
+.signup{
+    border-color: white;
+}
